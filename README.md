@@ -21,7 +21,7 @@ pnpm run test # It will watch
 
 ## Game rules
 
-- Let's play a single-player bowling.
+- Let's play a single-player mode bowling.
 - A game consists of rounds, where 10 pins are arranged on the board.
 - The goal is to knock down the maximum of pins.
 - 1 pin down is 1 point.
