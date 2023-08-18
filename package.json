@@ -4,11 +4,20 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "test": "vitest"
+    "test": "vitest",
+    "check": "tsc --noEmit && eslint --ext .ts src"
   },
   "devDependencies": {
     "typescript": "^5.0.2",
     "vite": "^4.4.5",
     "vitest": "^0.34.2"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.4.0",
+    "@typescript-eslint/parser": "^6.4.0",
+    "eslint": "^8.47.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-import": "^2.28.0",
+    "prettier": "^3.0.2"
   }
 }
