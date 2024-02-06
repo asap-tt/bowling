@@ -22,6 +22,7 @@ pnpm run test # It will watch
 ## Game rules
 
 - Let's play a single-player mode bowling.
+- We don't want you to handle exceptions, the `pinsDown` method is never called with a negative number, or more pins than available
 - A game consists of rounds, where 10 pins are arranged on the board.
 - The goal is to knock down the maximum of pins.
 - 1 pin down is 1 point.
