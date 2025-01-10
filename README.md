@@ -4,20 +4,39 @@ This is a pair-programming exercise where we'll implement a bowling score calcul
 
 ## Getting Started
 
-1. Clone and setup the project:
+1. Clone the repository:
+```bash
+git clone <repository-url>
+cd bowling-game
+```
+
+2. Install dependencies:
 ```bash
 pnpm install
+```
+
+3. Start the test runner in watch mode:
+```bash
 pnpm run test # This will run tests in watch mode
 ```
+
+4. Open the project in your favorite editor (we recommend VSCode)
 
 ## How We'll Work Together
 
 - This is a collaborative exercise - feel free to ask questions at any time
-- We use Test-Driven Development (TDD): write a failing test first, then make it pass
 - There are no "gotcha" moments - we're here to help you succeed
 - We're not looking for a perfect solution, but want to see how you approach the problem
 - You can use any resource you want
 - We'll be there to guide you if you're stuck
+
+# Methodology
+
+We follow Test-Driven Development (TDD), which consists of three simple steps:
+
+1. Write a failing test that describes the desired behavior
+2. Write the minimum amount of code to make the test pass
+3. Refactor the code while keeping the tests green
 
 ## Bowling Rules
 
@@ -41,10 +60,3 @@ pnpm run test # This will run tests in watch mode
 3. We can discuss the rules in more detail as we go
 
 Need help? That's perfectly fine! Let's solve this together.
-
-## Technical Setup
-
-You might want to install the recommended VSCode extensions for a better development experience:
-- ESLint
-- Prettier
-- Code Spell Checker
