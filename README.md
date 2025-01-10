@@ -1,30 +1,48 @@
-# Bowling
+# Bowling Game
 
-Usually the candidate share his screen and clone the repository to start quickly with a boilerplate.
+This is a pair-programming exercise where we'll implement a bowling score calculator together. Don't worry if you're not familiar with bowling - we'll guide you through it!
 
-- We're not looking for a perfect solution, but we want to see how you approach the problem and how you think.
-- If you have any questions, feel free to ask.
-- You can use any resource you want.
-- We'll be there to guide you if you're stuck.
+## Getting Started
 
-## Setup
-
+1. Clone and setup the project:
 ```bash
 pnpm install
-# You might want to install recommended VSCode extensions
-pnpm run test # It will watch
+pnpm run test # This will run tests in watch mode
 ```
 
-## Constraints
+## How We'll Work Together
 
-- We write tests first, then implement to make them pass.
+- This is a collaborative exercise - feel free to ask questions at any time
+- We use Test-Driven Development (TDD): write a failing test first, then make it pass
+- There are no "gotcha" moments - we're here to help you succeed
+- We're not looking for a perfect solution, but want to see how you approach the problem
+- You can use any resource you want
+- We'll be there to guide you if you're stuck
 
-## Game rules
+## Bowling Rules (with examples)
 
-- Let's play a single-player mode bowling.
-- A game consists of rounds, where 10 pins are arranged on the board.
-- The goal is to knock down the maximum of pins.
-- 1 pin down is 1 point.
-- Each round consists of maximum 2 rolls.
-- If the player knocks down all 10 pins on the first roll it’s called a "strike" and the round ends. The player scores 10 points plus the number of pins knocked down on the next two rolls.
-- If the player knocks down some pins on the first roll and the remainder on the second roll it’s called a "spare". The player scores 10 points plus the number of pins knocked down on the next roll.
+1. Basic Scoring:
+   - Each game has 10 frames
+   - Each frame has up to 2 rolls to knock down 10 pins
+   - Each pin knocked down is worth 1 point
+
+2. Special Scores:
+   - Strike (X): All 10 pins down in first roll
+     Example: [X,5,3] = 10 + (5+3) + (5+3) = 26
+   - Spare (/): All 10 pins down in two rolls
+     Example: [7,/,4] = 10 + 4 + 4 = 18
+
+## Suggested First Steps
+
+1. Start with the simplest case: scoring a single roll
+2. Then handle a complete frame (two rolls)
+3. Move on to special cases (spares and strikes) later
+
+Need help? That's perfectly fine! Let's solve this together.
+
+## Technical Setup
+
+You might want to install the recommended VSCode extensions for a better development experience:
+- ESLint
+- Prettier
+- Code Spell Checker
