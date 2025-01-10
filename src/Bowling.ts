@@ -1,6 +1,6 @@
 export class Bowling {
-  pinsDown(pins: number): void {
-    console.info(pins);
+  throwBall(pinsKnockedDown: number): void {
+    console.info(`Number of pins knocked down: ${pinsKnockedDown}`);
   }
 
   score(): number {

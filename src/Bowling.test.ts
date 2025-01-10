@@ -9,9 +9,7 @@ describe("Bowling Game", () => {
   // Here's an example of what a test might look like:
   test("should score 0 for a gutter roll", () => {
     const bowling = new Bowling();
-
-    bowling.pinsDown(0);
-
+    bowling.throwBall(0);
     expect(bowling.score()).toBe(0);
   });
 
