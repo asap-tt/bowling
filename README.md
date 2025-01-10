@@ -5,20 +5,20 @@ This is a pair-programming exercise where we'll implement a bowling score calcul
 ## Getting Started
 
 1. Clone the repository:
-```bash
-git clone <repository-url>
-cd bowling-game
-```
+   ```bash
+   git clone https://github.com/asap-tt/bowling.git
+   cd bowling-game
+   ```
 
 2. Install dependencies:
-```bash
-pnpm install
-```
+   ```bash
+   pnpm install
+   ```
 
 3. Start the test runner in watch mode:
-```bash
-pnpm run test # This will run tests in watch mode
-```
+   ```bash
+   pnpm run test # This will run tests in watch mode
+   ```
 
 4. Open the project in your favorite editor (we recommend VSCode)
 
@@ -30,7 +30,7 @@ pnpm run test # This will run tests in watch mode
 - You can use any resource you want
 - We'll be there to guide you if you're stuck
 
-# Methodology
+## Methodology
 
 We follow Test-Driven Development (TDD), which consists of three simple steps:
 
