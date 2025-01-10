@@ -6,7 +6,7 @@ This is a pair-programming exercise where we'll implement a bowling score calcul
 
 1. Clone the repository:
 ```bash
-git clone <repository-url>
+git clone https://github.com/asap-tt/bowling.git
 cd bowling-game
 ```
 
@@ -30,7 +30,7 @@ pnpm run test # This will run tests in watch mode
 - You can use any resource you want
 - We'll be there to guide you if you're stuck
 
-# Methodology
+## Methodology
 
 We follow Test-Driven Development (TDD), which consists of three simple steps:
 
