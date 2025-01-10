@@ -19,24 +19,26 @@ pnpm run test # This will run tests in watch mode
 - You can use any resource you want
 - We'll be there to guide you if you're stuck
 
-## Bowling Rules (with examples)
+## Bowling Rules
 
-1. Basic Scoring:
-   - Each game has 10 frames
-   - Each frame has up to 2 rolls to knock down 10 pins
-   - Each pin knocked down is worth 1 point
+- A bowling game consists of 10 frames. 
+- In each frame, you have two opportunities to knock down 10 pins.
+- The score for the frame is the total number of pins knocked down, plus bonuses for strikes and spares.
+- A spare is when you knock down all 10 pins in two tries
+- A strike is when you knock down all 10 pins on your first try. The frame ends immediately.
+- Bonuses are awarded for strikes and spares, based on your next rolls.
+- For a spare, the bonus is the number of pins knocked down on your next roll.
+- For a strike, the bonus is the number of pins knocked down on your next two rolls.
 
-2. Special Scores:
-   - Strike (X): All 10 pins down in first roll
-     Example: [X,5,3] = 10 + (5+3) + (5+3) = 26
-   - Spare (/): All 10 pins down in two rolls
-     Example: [7,/,4] = 10 + 4 + 4 = 18
+- For example:
+  - If you bowl a spare, then an 8, your score for the spare frame would be: 10 + 8 = 18
+  - If you bowl a strike, then an 8 and a 1, your score for the strike frame would be: 10 + 8 + 1 = 19
 
 ## Suggested First Steps
 
-1. Start with the simplest case: scoring a single roll
-2. Then handle a complete frame (two rolls)
-3. Move on to special cases (spares and strikes) later
+1. Start with the simplest case you can think of
+2. Build up complexity gradually
+3. We can discuss the rules in more detail as we go
 
 Need help? That's perfectly fine! Let's solve this together.
 
